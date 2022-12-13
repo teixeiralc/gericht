@@ -1,0 +1,52 @@
+.newsletter {
+  z-index: 2;
+  padding: 2rem 4rem;
+  border: 1px solid var(--color-golden);
+  background-color: var(--color-black);
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading > div > img {
+  margin: auto;
+}
+
+.form {
+  margin-top: 3rem;
+}
+
+.form input {
+  width: 620px;
+  border: 1px solid var(--color-golden);
+  font-size: 1rem;
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  margin-right: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--color-black);
+}
+
+.form button {
+  width: max-content;
+}
+
+@media screen and (max-width: 990px) {
+  .form {
+    flex-direction: column;
+    width: 100%;
+  }
+  .form input {
+    margin: 0 0 2rem 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .newsletter {
+    padding: 2rem 0;
+    border: none;
+  }
+}
+
