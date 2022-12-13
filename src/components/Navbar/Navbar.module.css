@@ -10,13 +10,13 @@ nav {
   max-width: 150px;
 }
 
-ul {
+nav ul {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-ul li:hover {
+nav ul li:hover {
   color: var(--color-grey);
 }
 
