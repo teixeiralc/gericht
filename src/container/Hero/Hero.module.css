@@ -1,0 +1,37 @@
+.hero {
+  background-color: var(--color-black);
+}
+
+.title {
+  font-size: 5rem;
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04rem;
+  line-height: 1.3;
+}
+
+.info_desc {
+  font-family: var(--font-alt);
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
+  margin: 2rem 0;
+  max-width: 450px;
+  color: var(--color-grey-text);
+}
+
+@media screen and (max-width: 550px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .info_desc {
+    font-size: 0.875rem;
+  }
+}
