@@ -1,0 +1,40 @@
+.chef_content {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.chef_content p {
+  color: var(--color-grey-text);
+  font-style: italic;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.quote {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.quote img {
+  max-width: 47px;
+  max-height: 40px;
+  margin-bottom: 0.25rem;
+}
+
+.chef_sign p:first-of-type {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 2rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.chef_sign p:last-of-type {
+  margin-bottom: 2rem;
+  color: var(--color-grey-text);
+}
+
+.chef_sign img {
+  max-width: 200px;
+}
